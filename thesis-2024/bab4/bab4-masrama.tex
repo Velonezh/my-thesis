@@ -1,0 +1,146 @@
+\chapter{RESULTS AND DISCUSSION}
+\label{sec:chap4_pengujian}
+\vspace{1ex}
+
+\section*{}
+
+We obtained the following results from the experiments we conducted: the switching neural network model accuracy, object detector accuracy and processing time speed, precision-recall curves, and Grad-CAM++ analysis. This section presents the experimental results and our interpretation of the results obtained. 
+
+\section{Switching Neural Network Accuracy Result}
+From the tests performed on each image classifier model, it was found that VGG16 got the highest accuracy compared to other classifiers at 94.6\% and 95.0\% for top-1 val accuracy and top-1 test accuracy, respectively. Whereas in EfficientFormerV2, the top-1 value surprisingly shows that the small model (S2) gets a better score than the large model (L) at 93.3\% vs 93.1\%  for top-1 val accuracy and 93.8\% vs 93.5\% for top-1 test accuracy. We interpret these results can occur because the workload of the switching neural network in this study is relatively tiny, namely to classify two classes, low-light or normal-light conditions, so that more extensive networks cannot generalize this problem properly and tend to overfit. In contrast, smaller networks work well on smaller problems. We compare the scores in Table \ref{tab:switching model accuracy}.
+
+\begin{table}[h!]
+	\caption{Switching Model Accuracy}
+	\label{tab:switching model accuracy}
+	\centering
+	{\footnotesize Higher values are better.  \par}
+	\renewcommand{\arraystretch}{1.3}
+	\begin{tabular}{|l|c|c|}
+		\hline
+		\multicolumn{1}{|c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Switching \\ Model\end{tabular}}} & \textbf{\begin{tabular}[c]{@{}c@{}}Top-1 Val \\ Accuracy\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Top-1 Test \\ Accuracy\end{tabular}} \\ \hline
+		VGG16                                                                                     & \textbf{94.6\%}                                                         & \textbf{95.0\%}                                                          \\ \hline
+		EfficientFormerV2 L                                                                       & 93.1\%                                                                  & 93.5\%                                                                   \\ \hline
+		EfficientFormerV2 S2                                                                      & 93.3\%                                                                  & 93.8\%                                                                   \\ \hline
+	\end{tabular}
+\end{table}
+
+\section{Object Detector Accuracy and Processing Time Speed Result}
+
+Then on the YOLOv8 object detector, the mean Average Precision (mAP) test and speed measurement were carried out on each validation and test split dataset. The mAP test results on the validation dataset show that switching neural network + YOLOv8 is superior to YOLOv8 without switching neural network which is specifically trained on low-light datasets, specific normal-light datasets, and even combined low-light and normal-light datasets in overall mAP scores of 0.745, 0.745, 0.744 for Switch VGG16, Switch EfficientFormerV2 L, and Switch EfficientFormerV2 S2, respectively compared to the YOLOv8 trained without switching neural network at 0.680, 0.687, 0.583 for YOLOv8 specific low-light, YOLOv8 specific normal-light, and YOLOv8 low + normal-lights, respectively. The overall mAP of switching neural network YOLOv8 is close to the mAP scores of low-light specific YOLOv8 tested on the ExDark dataset and the normal-light specific YOLOv8 tested on the COCO dataset. This proves that the switching neural network can work well to direct a set of mixed light image data to be detected on a model trained specifically for the image's light conditions. Table \ref{tab:val split mAP} displays the mAP test results on the validation dataset.
+
+\begin{table}[h!]
+	\caption{Object Detector Val Split mAP on Different Datasets}
+	\label{tab:val split mAP}
+	\centering
+	{\footnotesize Higher values are better. \par}
+	\renewcommand{\arraystretch}{1.3}
+	\resizebox{0.9\linewidth}{!}{%
+		\begin{tabular}{|l|r|r|r|r|}
+			\hline
+			\multicolumn{1}{|c|}{\textbf{Object Detector}}                                 & \multicolumn{1}{c|}{\textbf{ExDark}} & \multicolumn{1}{c|}{\textbf{COCO}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Combi-\\ nation\end{tabular}}} & \multicolumn{1}{c|}{\textbf{Overall}} \\ \hline
+			\begin{tabular}[c]{@{}l@{}}YOLOv8 \\ Specific Low-Light\end{tabular}           & \textbf{0.776}                       & 0.58                               & 0.685                                                                                 & 0.680                                 \\ \hline
+			\begin{tabular}[c]{@{}l@{}}YOLOv8\\ Specific Normal-Light\end{tabular}         & 0.628                                & \textbf{0.752}                     & 0.681                                                                                 & 0.687                                 \\ \hline
+			\begin{tabular}[c]{@{}l@{}}YOLOv8\\ Low + Normal-Light\end{tabular}            & 0.695                                & 0.462                              & 0.593                                                                                 & 0.583                                 \\ \hline
+			\begin{tabular}[c]{@{}l@{}}Switch VGG16 \\ + YOLOv8\end{tabular}               & 0.76                                 & 0.734                              & \textbf{0.742}                                                                        & \textbf{0.745}                        \\ \hline
+			\begin{tabular}[c]{@{}l@{}}Switch EfficientFormerV2 L\\ + YOLOv8\end{tabular}  & 0.764                                & 0.73                               & \textbf{0.742}                                                                        & \textbf{0.745}                        \\ \hline
+			\begin{tabular}[c]{@{}l@{}}Switch EfficientFormerV2 S2\\ + YOLOv8\end{tabular} & 0.764                                & 0.727                              & 0.741                                                                                 & 0.744                                 \\ \hline
+		\end{tabular}%
+	}
+\end{table}
+
+Meanwhile, for the mAP test on the test dataset, the results obtained have the same trend as the results on the validation dataset but with lower mAP scores due to the larger number of images tested on this split. The overall mAP for each switching neural network YOLOv8 is 0.691, 0.688, and 0.686 for Switch VGG16, Switch EfficientFormerV2 L, and Switch EfficientFormerV2 S2, respectively. While the overall mAP of YOLOv8 without switching neural network at 0.632, 0.652, 0.569 for YOLOv8 specific low-light, YOLOv8 specific normal-light, and YOLOv8 low + normal-lights, respectively. Table \ref{tab:test split mAP} contains the mAP test results on the test dataset.
+
+\begin{table}[h!]
+	\caption{Object Detector Test Split mAP on Different Datasets}
+	\label{tab:test split mAP}
+	\centering
+	{\footnotesize Higher values are better. \par}
+	\renewcommand{\arraystretch}{1.3}
+	\resizebox{0.9\linewidth}{!}{%
+		\begin{tabular}{|l|r|r|r|r|}
+			\hline
+			\multicolumn{1}{|c|}{\textbf{Object Detector}}                                 & \multicolumn{1}{c|}{\textbf{ExDark}} & \multicolumn{1}{c|}{\textbf{COCO}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Combi-\\ nation\end{tabular}}} & \multicolumn{1}{c|}{\textbf{Overall}} \\ \hline
+			\begin{tabular}[c]{@{}l@{}}YOLOv8 \\ Specific Low-Light\end{tabular}           & \textbf{0.736}                       & 0.539                              & 0.622                                                                                 & 0.632                                 \\ \hline
+			\begin{tabular}[c]{@{}l@{}}YOLOv8\\ Specific Normal-Light\end{tabular}         & 0.633                                & \textbf{0.673}                     & 0.651                                                                                 & 0.652                                 \\ \hline
+			\begin{tabular}[c]{@{}l@{}}YOLOv8\\ Low + Normal-Light\end{tabular}            & 0.679                                & 0.46                               & 0.567                                                                                 & 0.569                                 \\ \hline
+			\begin{tabular}[c]{@{}l@{}}Switch VGG16 \\ + YOLOv8\end{tabular}               & 0.732                                & 0.662                              & \textbf{0.68}                                                                         & \textbf{0.691}                        \\ \hline
+			\begin{tabular}[c]{@{}l@{}}Switch EfficientFormerV2 L\\ + YOLOv8\end{tabular}  & 0.734                                & 0.653                              & 0.676                                                                                 & 0.688                                 \\ \hline
+			\begin{tabular}[c]{@{}l@{}}Switch EfficientFormerV2 S2\\ + YOLOv8\end{tabular} & 0.734                                & 0.65                               & 0.675                                                                                 & 0.686                                 \\ \hline
+		\end{tabular}%
+	}
+\end{table}
+
+In the speed measurement, we found that switching neural networks adds processing time to object detection. Almost equivalent results were obtained for measurements on the validation and test datasets. In the pre-processing, it was found that YOLOv8 without switching neural network has a shorter time, which is half the time of YOLOv8 with switching neural network. For the inference, the VGG16 switch adds approximately two times as much time as YOLOv8 without switching neural networks, the EfficientFormerV2 L switch increases approximately 4.7 times, while the EfficientFormerV2 S2 switch increases approximately 4.3 times. As for the post-processing, surprisingly, the switch VGG16 got the fastest result at 0.70 ms. This can likely happen because the selection of light condition results on the VGG16 switch reduces the number of YOLOv8 predicted results. This causes a decrease in post-processing time on the combined switch VGG16 and YOLOv8 due to reduced Non-Maxima Suppression (NMS) process workloads. The complete speed measurement results are shown in Table \ref{tab:val split speed} and Table \ref{tab:test split speed}.
+
+\begin{table}[h!]
+	\caption{Object Detector Val Split Speed}
+	\label{tab:val split speed}
+	\centering
+	{\footnotesize The values are in milliseconds. Smaller values are better. \par}
+	\renewcommand{\arraystretch}{1.3}
+	\resizebox{0.8\linewidth}{!}{%
+		\begin{tabular}{|l|r|r|r|}
+			\hline
+			\multicolumn{1}{|c|}{\textbf{Object Detector}}                                 & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Pre-\\ Process\end{tabular}}} & \multicolumn{1}{c|}{\textbf{Inference}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Post-\\ Process\end{tabular}}} \\ \hline
+			\begin{tabular}[c]{@{}l@{}}YOLOV8\\ Specific Low-Light\end{tabular}            & \textbf{0.23}                                                                        & 14.47                                   & 1.40                                                                                  \\ \hline
+			\begin{tabular}[c]{@{}l@{}}YOLOv8\\ Specific Normal-Light\end{tabular}         & \textbf{0.23}                                                                        & 16.30                                   & 1.17                                                                                  \\ \hline
+			\begin{tabular}[c]{@{}l@{}}YOLOv8\\ Low + Normal-Light\end{tabular}            & \textbf{0.23}                                                                        & \textbf{14.27}                          & 1.47                                                                                  \\ \hline
+			\begin{tabular}[c]{@{}l@{}}Switch VGG16\\ + YOLOv8\end{tabular}                & 0.40                                                                                 & 36.43                                   & \textbf{0.70}                                                                         \\ \hline
+			\begin{tabular}[c]{@{}l@{}}Switch EfficientFormerV2 L \\ + YOLOv8\end{tabular} & 0.47                                                                                 & 69.43                                   & 1.13                                                                                  \\ \hline
+			\begin{tabular}[c]{@{}l@{}}Switch EfficientFormerV2 S2\\ + YOLOv8\end{tabular} & 0.50                                                                                 & 66.70                                   & 1.33                                                                                  \\ \hline
+		\end{tabular}%
+	}
+\end{table}
+
+\begin{table}[h!]
+	\caption{Object Detector Test Split Speed}
+	\label{tab:test split speed}
+	\centering
+	{\footnotesize The values are in milliseconds. Smaller values are better. \par}
+	\renewcommand{\arraystretch}{1.3}
+	\resizebox{0.8\linewidth}{!}{%
+		\begin{tabular}{|l|r|r|r|}
+			\hline
+			\multicolumn{1}{|c|}{\textbf{Object Detector}}                                 & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Pre-\\ Process\end{tabular}}} & \multicolumn{1}{c|}{\textbf{Inference}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Post-\\ Process\end{tabular}}} \\ \hline
+			\begin{tabular}[c]{@{}l@{}}YOLOV8\\ Specific Low-Light\end{tabular}            & \textbf{0.20}                                                                        & 14.23                                   & 1.03                                                                                  \\ \hline
+			\begin{tabular}[c]{@{}l@{}}YOLOv8\\ Specific Normal-Light\end{tabular}         & \textbf{0.20}                                                                        & 14.30                                   & 1.10                                                                                  \\ \hline
+			\begin{tabular}[c]{@{}l@{}}YOLOv8\\ Low + Normal-Light\end{tabular}            & \textbf{0.20}                                                                        & \textbf{14.20}                          & 0.87                                                                                  \\ \hline
+			\begin{tabular}[c]{@{}l@{}}Switch VGG16\\ + YOLOv8\end{tabular}                & 0.40                                                                                 & 32.63                                   & \textbf{0.70}                                                                         \\ \hline
+			\begin{tabular}[c]{@{}l@{}}Switch EfficientFormerV2 L \\ + YOLOv8\end{tabular} & 0.47                                                                                 & 66.90                                   & 1.33                                                                                  \\ \hline
+			\begin{tabular}[c]{@{}l@{}}Switch EfficientFormerV2 S2\\ + YOLOv8\end{tabular} & 0.47                                                                                 & 61.10                                   & 1.33                                                                                  \\ \hline
+		\end{tabular}%
+	}
+\end{table}
+
+\newpage
+
+\section{Precision-Recall Curves}
+
+We also provide the precision-recall curves of the best switch and object detection combination from the mAP test on validation and testing split in Figure \ref{fig:PR curves}. This graph explains the comparison of precision and recall at different thresholds. Ideally, a good object detector has high precision and recall at each threshold, so the ideal form of the graph is a precision value of 1 when the recall value is not 1 and changes to a precision value of 0 when the recall value is 1. 
+
+\begin{figure*}[h]
+	\centering
+	\includegraphics[width=\linewidth]{bab4/PR Curves-new.pdf}
+	\caption{Precision-Recall Curves of The Best mAP Results on Val and Test Split \label{fig:PR curves}}
+\end{figure*}
+
+The graphs show that the bus class has the most ideal precision-recall graph compared to the other classes. In addition, the mAP obtained was the highest among other classes, namely at 0.925, 0.921, and 0.862 for the val best Switch VGG16, val best Switch EfficientFormerV2 L, and test best VGG16, respectively. While the worst graphics and mAP results were table class, namely at 0.595, 0.591, and 0.466 for the val best Switch VGG16, val best Switch EfficientFormerV2 L, and test best VGG16, respectively. This is most likely to occur because the bus is a large object that tends not to be covered by other objects significantly in the dataset images. In contrast, the tables in the dataset images are mostly covered by other objects above them, such as people leaning on them, glasses, plates, and bottles. Hence, it affects the clarity of the table dataset.
+
+
+\section{Grad-CAM++ Analysis}
+
+To find out the model's attention on low-light and normal-light images classification in switching neural networks and object detections with YOLOv8, we added a visual explanation using Grad-CAM++ heatmaps \cite{Chattopadhay_2018}. These heatmaps will highlight the locations in the image that are important for classifying and detecting objects. The redder the color on the heatmap will show that the area is more important. Meanwhile, the bluer the area, the less important it is for classification and object detection decisions. We sampled two low-light images from the ExDark dataset and two normal-light images from the COCO dataset and visualized them on the heatmaps. Each of these images will receive six heatmaps, namely heatmap of VGG16, EfficientFormerV2 S2, EfficientFormerV2 L, YOLOv8 specific low-light, YOLOv8 specific normal-light, and YOLOv8 combination. We show these Grad-CAM++ heatmaps in Figure \ref{fig:Grad-CAM++}. 
+
+\begin{figure*}[h]
+	\centering
+	\includegraphics[width=\linewidth]{bab4/Grad-CAM++-new.pdf}
+	\caption{Grad-CAM++ Heatmaps of the Switching Neural Network Models and Object Detectors \label{fig:Grad-CAM++}}
+\end{figure*}
+
+The heatmaps show that VGG16 classifies images as low-light with a tendency to focus on the area around objects. Meanwhile, VGG16 tends to direct its attention to the object when classifying normal-light images. In EfficientFormerV2 S2, their attention tends to be spread over several regions in the image when classifying low-light and normal-light images. The attention of EfficientFormerV2 L shows the same pattern as EfficientFormerV2 S2 in the second image of the low-light sample and the first image of the normal-light sample. However, in the first image of the low-light sample and the second image of the normal-light sample, the attention pattern from EfficientFormerV2 L tends to be the same as VGG16, which is inclined to the area around the object.
+
+Meanwhile, on the YOLOv8 heatmaps, interesting results were obtained. Even though the YOLOv8 combination has the lowest mAP compared to YOLOv8 specific low-light and YOLOv8 specific normal-light, the Grad-CAM++ heatmaps obtained are closer to the object than YOLOv8 specific, which tends to spread irregularly across the image. This shows that training on a combined low-light and normal-light dataset makes the object detector more able to localize objects in the image but with a smaller confidence value because of the confusion caused by utterly different object features in low-light and normal-light conditions.                                                            
+                                                            
+
+
+

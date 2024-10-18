@@ -1,0 +1,455 @@
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022)  (format=lualatex 2022.10.16)  1 NOV 2022 12:49
+ restricted system commands enabled.
+**DaftarRiwayatHidup.tex
+(./DaftarRiwayatHidup.tex
+LaTeX2e <2022-06-01> patch level 5
+Lua module: luaotfload 2022-10-03 3.23 Lua based OpenType font support
+Lua module: lualibs 2022-10-04 2.75 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2022-10-04 2.75 ConTeXt Lua libraries -- extended c
+ollection.
+luaotfload | conf : Root cache directory is "/home/afa/.texlive2022/texmf-var/lu
+atex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2022-10-03.lua" from kpse-res
+olved path "/usr/local/texlive/2022/texmf-dist/tex/luatex/luaotfload/fontloader-
+2022-10-03.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.120
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/home/afa/.texlive2022/texmf-var/lu
+atex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' at position 1 in `glyph_stream_provider'
+.
+Inserting `luaotfload.harf.finalize_vlist' at position 1 in `post_linebreak_filt
+er'.
+Inserting `luaotfload.harf.finalize_hlist' at position 2 in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' at position 1 in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' at position 1 in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' at position 1 in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
+t'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
+. L3 programming layer <2022-09-28>
+Inserting `tracingstacklevels' at position 1 in `input_level_string'.
+! Undefined control sequence.
+l.1 \chapter
+          *{BIODATA PENULIS}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \chapter*
+           {BIODATA PENULIS}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--4
+[]*BIODATA
+ []
+
+! Undefined control sequence.
+l.5 		\includegraphics
+                    [height=0.2\textheight]{./ubah/Foto}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+]
+l.5 		\includegraphics[height=0.2\textheight]
+                                           {./ubah/Foto}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+]
+l.5 		\includegraphics[height=0.2\textheight]
+                                           {./ubah/Foto}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Undefined control sequence.
+l.8 \section
+          *{Identitas Diri}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 9.
+
+Overfull \hbox (341.43307pt too wide) in paragraph at lines 8--28
+[] 
+ []
+
+! Undefined control sequence.
+l.29 \section
+           *{Riwayat Pendidikan}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 29--49
+[]*Riwayat
+ []
+
+
+Overfull \hbox (341.43307pt too wide) in paragraph at lines 29--49
+[] 
+ []
+
+! Undefined control sequence.
+l.51 \section
+           *{Daftar Publikasi}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 51--52
+[]*Daftar
+ []
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 53--53
+[] 
+ []
+
+luaotfload | db : Font names database loaded from /home/afa/.texlive2022/texmf-v
+ar/luatex-cache/generic/names/luaotfload-names.luc.gz
+Overfull \hbox (15.0pt too wide) in paragraph at lines 54--56
+M.H.,\TU/lmr/m/it/10 Ex-
+ []
+
+
+Overfull \hbox (23.64003pt too wide) in paragraph at lines 54--56
+\TU/lmr/m/it/10 tract-
+ []
+
+
+Overfull \hbox (13.29001pt too wide) in paragraph at lines 54--56
+\TU/lmr/m/it/10 ing
+ []
+
+
+Overfull \hbox (43.84001pt too wide) in paragraph at lines 54--56
+\TU/lmr/m/it/10 Temporal-
+ []
+
+
+Overfull \hbox (25.44pt too wide) in paragraph at lines 54--56
+\TU/lmr/m/it/10 Based
+ []
+
+
+Overfull \hbox (18.91pt too wide) in paragraph at lines 54--56
+\TU/lmr/m/it/10 Spa-
+ []
+
+
+Overfull \hbox (14.06001pt too wide) in paragraph at lines 54--56
+\TU/lmr/m/it/10 tial
+ []
+
+
+Overfull \hbox (18.54001pt too wide) in paragraph at lines 54--56
+\TU/lmr/m/it/10 Fea-
+ []
+
+
+Overfull \hbox (21.09001pt too wide) in paragraph at lines 54--56
+\TU/lmr/m/it/10 tures
+ []
+
+
+Overfull \hbox (8.69pt too wide) in paragraph at lines 54--56
+\TU/lmr/m/it/10 in
+ []
+
+
+Overfull \hbox (15.62pt too wide) in paragraph at lines 54--56
+\TU/lmr/m/it/10 Im-
+ []
+
+
+Overfull \hbox (15.34001pt too wide) in paragraph at lines 54--56
+\TU/lmr/m/it/10 bal-
+ []
+
+
+Overfull \hbox (24.02002pt too wide) in paragraph at lines 54--56
+\TU/lmr/m/it/10 anced
+ []
+
+
+Overfull \hbox (21.09001pt too wide) in paragraph at lines 54--56
+\TU/lmr/m/it/10 Data
+ []
+
+
+Overfull \hbox (12.40001pt too wide) in paragraph at lines 54--56
+\TU/lmr/m/it/10 for
+ []
+
+
+Overfull \hbox (18.67001pt too wide) in paragraph at lines 54--56
+\TU/lmr/m/it/10 Pre-
+ []
+
+
+Overfull \hbox (19.68002pt too wide) in paragraph at lines 54--56
+\TU/lmr/m/it/10 dict-
+ []
+
+
+Overfull \hbox (13.29001pt too wide) in paragraph at lines 54--56
+\TU/lmr/m/it/10 ing
+ []
+
+
+Overfull \hbox (32.34001pt too wide) in paragraph at lines 54--56
+\TU/lmr/m/it/10 Dengue
+ []
+
+
+Overfull \hbox (23.79999pt too wide) in paragraph at lines 54--56
+\TU/lmr/m/it/10 Virus
+ []
+
+
+Overfull \hbox (28.5pt too wide) in paragraph at lines 54--56
+\TU/lmr/m/it/10 Trans-
+ []
+
+
+Overfull \hbox (18.92pt too wide) in paragraph at lines 54--56
+\TU/lmr/m/it/10 mis-
+ []
+
+
+Overfull \hbox (17.89pt too wide) in paragraph at lines 54--56
+\TU/lmr/m/it/10 sion\nullfont ,
+ []
+
+
+Overfull \hbox (23.26003pt too wide) in paragraph at lines 56--57
+\TU/lmr/m/it/10 Sifte-
+ []
+
+
+Overfull \hbox (24.79001pt too wide) in paragraph at lines 56--57
+\TU/lmr/m/it/10 math,
+ []
+
+
+Overfull \hbox (5.11pt too wide) in paragraph at lines 56--57
+\TU/lmr/m/it/10 a
+ []
+
+
+Overfull \hbox (13.81001pt too wide) in paragraph at lines 56--57
+\TU/lmr/m/it/10 sif-
+ []
+
+
+Overfull \hbox (12.52002pt too wide) in paragraph at lines 56--57
+\TU/lmr/m/it/10 teo
+ []
+
+
+Overfull \hbox (22.49002pt too wide) in paragraph at lines 56--57
+\TU/lmr/m/it/10 based
+ []
+
+
+Overfull \hbox (25.3pt too wide) in paragraph at lines 56--57
+\TU/lmr/m/it/10 math-
+ []
+
+
+Overfull \hbox (8.18001pt too wide) in paragraph at lines 56--57
+\TU/lmr/m/it/10 e-
+ []
+
+
+Overfull \hbox (20.19pt too wide) in paragraph at lines 56--57
+\TU/lmr/m/it/10 mat-
+ []
+
+
+Overfull \hbox (11.76001pt too wide) in paragraph at lines 56--57
+\TU/lmr/m/it/10 ics
+ []
+
+
+Overfull \hbox (12.78pt too wide) in paragraph at lines 56--57
+\TU/lmr/m/it/10 as-
+ []
+
+
+Overfull \hbox (20.45pt too wide) in paragraph at lines 56--57
+\TU/lmr/m/it/10 sess-
+ []
+
+
+Overfull \hbox (21.72pt too wide) in paragraph at lines 56--57
+\TU/lmr/m/it/10 ment
+ []
+
+
+Overfull \hbox (12.27pt too wide) in paragraph at lines 56--57
+\TU/lmr/m/it/10 se-
+ []
+
+
+Overfull \hbox (10.87001pt too wide) in paragraph at lines 56--57
+\TU/lmr/m/it/10 ri-
+ []
+
+
+Overfull \hbox (14.56999pt too wide) in paragraph at lines 56--57
+\TU/lmr/m/it/10 ous
+ []
+
+
+Overfull \hbox (22.49pt too wide) in paragraph at lines 56--57
+\TU/lmr/m/it/10 game
+ []
+
+
+Overfull \hbox (12.40001pt too wide) in paragraph at lines 56--57
+\TU/lmr/m/it/10 for
+ []
+
+
+Overfull \hbox (17.38002pt too wide) in paragraph at lines 56--57
+\TU/lmr/m/it/10 deaf
+ []
+
+
+Overfull \hbox (18.92001pt too wide) in paragraph at lines 56--57
+\TU/lmr/m/it/10 chil-
+ []
+
+
+Overfull \hbox (19.04001pt too wide) in paragraph at lines 56--57
+\TU/lmr/m/it/10 dren\nullfont ,
+ []
+
+! Undefined control sequence.
+l.61 \section
+           *{Riwayat Penelitian}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 61--62
+[]*Riwayat
+ []
+
+! Undefined control sequence.
+<recently read> \lipsum 
+        
+l.63 	\item \lipsum
+                 [3]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \lipsum 
+        
+l.64 	\item \lipsum
+                 [3]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.68 \section
+           *{Riwayat Lainnya}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.70 \lipsum
+          [1]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+)
+! Emergency stop.
+<*> DaftarRiwayatHidup.tex
+                       
+*** (job aborted, no legal \end found)
+
+
+
+Here is how much of LuaTeX's memory you used:
+ 26 strings out of 477352
+ 100000,383344 words of node,token memory allocated 20113 words of node memory still in use:
+   247 hlist, 40 vlist, 57 rule, 27 disc, 53 local_par, 1 dir, 4 math, 725 glue,
+ 24 kern, 128 penalty, 1333 glyph, 299 attribute, 39 glue_spec, 299 attribute_li
+st, 1 temp nodes
+   avail lists: 4:22,5:11,8:1,10:21
+ 21286 multiletter control sequences out of 65536+600000
+ 25 fonts using 1345055 bytes
+ 19i,8n,12p,356b,136s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!

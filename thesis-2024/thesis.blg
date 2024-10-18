@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d (TeX Live 2023)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis.aux
+The style file: IEEEtran.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: IEEEabrv.bib
+Database file #2: ./ubah/pustaka.bib
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in PhysicalIssue
+
+Done.
+You've used 69 entries,
+            4087 wiz_defined-function locations,
+            1810 strings with 33806 characters,
+and the built_in function-call counts, 60323 in all, are:
+= -- 4838
+> -- 1673
+< -- 522
++ -- 934
+- -- 317
+* -- 3007
+:= -- 8790
+add.period$ -- 141
+call.type$ -- 69
+change.case$ -- 75
+chr.to.int$ -- 1164
+cite$ -- 70
+duplicate$ -- 4233
+empty$ -- 4618
+format.name$ -- 370
+if$ -- 14172
+int.to.chr$ -- 0
+int.to.str$ -- 69
+missing$ -- 765
+newline$ -- 264
+num.names$ -- 75
+pop$ -- 1711
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 4651
+stack$ -- 0
+substring$ -- 2857
+swap$ -- 3646
+text.length$ -- 134
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 69
+warning$ -- 1
+while$ -- 249
+width$ -- 71
+write$ -- 760
+(There was 1 warning)

@@ -1,0 +1,43 @@
+\babel@toc {american}{}\relax 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Global population by age distribution.\relax }}{9}{figure.caption.6}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Comparison of healthy shoulders with those with frozen shoulder \cite {FrozShoulder4}.\relax }}{11}{figure.caption.7}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Anatomy of tennis elbow. The area of pain and inflammation is shown in the region located around the lateral epicondyle, which is the main characteristic of this condition.\relax }}{13}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Illustration of a set of issues located at the knee.\relax }}{15}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Illustration of top-down approach in a 2D human pose estimation task \cite {HPEApproaches}.\relax }}{17}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Illustration of top-down approach in a 2D human pose estimation task \cite {HPEApproaches}.\relax }}{18}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces BlazePose keypoint topology.\relax }}{19}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Inference workflow of BlazePose architecture \cite {BlazePose}.\relax }}{20}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Compared between simple neural network architecture and deep learning neural network.\relax }}{21}{figure.caption.14}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces An example of CNN architecture for image recognition \cite {cnnarch}.\relax }}{23}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Illustration of one cell of the LSTM memory block.\relax }}{24}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces A common example of a confusion matrix.\relax }}{26}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Accuracy is calculated as the ratio of the number of correct predictions to the total number of predictions.\relax }}{27}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Precision is calculated as the ratio of the number of correct positive predictions to the total number of positive predictions made by the model.\relax }}{28}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Recall is calculated as the ratio of the number of correct positive predictions to the total number of positive examples actually present in the dataset.\relax }}{29}{figure.caption.20}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Research Block Diagram\relax }}{31}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Architecture of CNN that used in this research.\relax }}{36}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Architecture of LSTM that used in this research.\relax }}{38}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Architecture of CNN-LSTM that used in this research.\relax }}{39}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Architecture of Deep CNN-LSTM that used in this research.\relax }}{40}{figure.caption.26}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Dataset distribution of PhysioExercise.\relax }}{45}{figure.caption.28}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Statistics for the length distribution of our video dataset. Videos with a length of 5 seconds are the most recorded.\relax }}{46}{figure.caption.29}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Examples of pose estimation results using mediapipe for exercise activity types (a) adduction abduction, (b) elbow flexion extension, and (c) right knee flexion extension.\relax }}{48}{figure.caption.30}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{48}{subfigure.3.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{48}{subfigure.3.2}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{48}{subfigure.3.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Data structure of PhysioExercise dataset.\relax }}{49}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Example of keypoint extraction results for a frame.\relax }}{50}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces The contents of the '.npz' file that stores sequences and labels data.\relax }}{51}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Accuracy and loss of training and validation on the CNN model.\relax }}{52}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Confusion matrix of the CNN model outcomes.\relax }}{53}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Accuracy and loss of training and validation on the LSTM model.\relax }}{56}{figure.caption.38}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Confusion matrix of the LSTM model outcomes.\relax }}{57}{figure.caption.39}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Accuracy and loss of training and validation on the CNN-LSTM model.\relax }}{60}{figure.caption.42}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Confusion matrix of the CNN-LSTM model outcomes.\relax }}{61}{figure.caption.43}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Accuracy and loss of training and validation on the Deep CNN-LSTM model.\relax }}{64}{figure.caption.46}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Confusion matrix of the Deep CNN-LSTM model outcomes.\relax }}{66}{figure.caption.47}%
+\addvspace {10\p@ }

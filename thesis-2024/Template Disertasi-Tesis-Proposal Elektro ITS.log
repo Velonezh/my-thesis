@@ -1,0 +1,1451 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.7.14)  15 JUL 2022 07:38
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**"./Template Disertasi-Tesis-Proposal Elektro ITS.tex"
+(Template Disertasi-Tesis-Proposal Elektro ITS.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2021/10/04 v1.4n Standard LaTeX document class
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(lib/init.tex
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2022/02/26 3.73 The Babel package
+\babel@savecnt=\count194
+\U@D=\dimen139
+\l@unhyphenated=\language79
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count195
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/babel-indonesian\baha
+sa.ldf
+Language: bahasa 2017/02/15 v1.0m Bahasa Indonesia support from the babel syste
+m
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/babel-indonesian\indo
+nesian.ldf
+Language: indonesian 2017/02/15 v1.0m Bahasa Indonesia support from the babel s
+ystem
+))
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/babel-indonesian\indo
+nesian.ldf
+Language: indonesian 2017/02/15 v1.0m Bahasa Indonesia support from the babel s
+ystem
+))
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcm
+ds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr
+.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys
+.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefi
+nekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape
+.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmac
+ro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.s
+ty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+)
+\@linkdim=\dimen140
+\Hy@linkcounter=\count196
+\Hy@pagecounter=\count197
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.s
+ty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count198
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4018
+.
+Package hyperref Info: Hyper figures OFF on input line 4137.
+Package hyperref Info: Link nesting OFF on input line 4142.
+Package hyperref Info: Hyper index ON on input line 4145.
+Package hyperref Info: Plain pages OFF on input line 4152.
+Package hyperref Info: Backreferencing OFF on input line 4157.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4390.
+\c@Hy@tempcnt=\count199
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4749.
+\XeTeXLinkMargin=\dimen141
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintca
+lc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count266
+\Field@Width=\dimen142
+\Fld@charsize=\dimen143
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+LaTeX Info: Redefining \ref on input line 6097.
+LaTeX Info: Redefining \pageref on input line 6101.
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count267
+\c@Item=\count268
+\c@Hfootnote=\count269
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.st
+y
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count270
+\c@bookmark@seq@number=\count271
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunf
+ilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniqu
+ecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip49
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/algorithm2e\algorithm
+2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count272
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\algocf@hangindent=\skip50
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.s
+ty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count273
+) (C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+) (C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/relsize\relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip51
+\skiplinenumber=\skip52
+\skiprule=\skip53
+\skiphlne=\skip54
+\skiptext=\skip55
+\skiplength=\skip56
+\algomargin=\skip57
+\skipalgocfslide=\skip58
+\algowidth=\dimen144
+\inoutsize=\dimen145
+\inoutindent=\dimen146
+\interspacetitleruled=\dimen147
+\interspacealgoruled=\dimen148
+\interspacetitleboxruled=\dimen149
+\algocf@ruledwidth=\skip59
+\algocf@inoutbox=\box50
+\algocf@inputbox=\box51
+\AlCapSkip=\skip60
+\AlCapHSkip=\skip61
+\algoskipindent=\skip62
+\algocf@nlbox=\box52
+\algocf@hangingbox=\box53
+\algocf@untilbox=\box54
+\algocf@skipuntil=\skip63
+\algocf@capbox=\box55
+\algocf@lcaptionbox=\skip64
+\algoheightruledefault=\skip65
+\algoheightrule=\skip66
+\algotitleheightruledefault=\skip67
+\algotitleheightrule=\skip68
+\c@algocfline=\count274
+\c@algocfproc=\count275
+\c@algocf=\count276
+\algocf@algoframe=\box56
+\algocf@algobox=\box57
+) (C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics
+.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.d
+ef
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen150
+\Gin@req@width=\dimen151
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l
+3keys2e.sty
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2022-02-24 L3 programming layer (loader) 
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-p
+dftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count277
+\l__pdf_internal_box=\box58
+))
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count278
+\l__lipsum_a_int=\count279
+\l__lipsum_b_int=\count280
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex
+))
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/hyphenat\hyphenat.sty
+Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
+\langwohyphens=\language80
+LaTeX Info: Redefining \_ on input line 43.
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count281
+\rotFPtop=\skip69
+\rotFPbot=\skip70
+\rot@float@box=\box59
+\rot@mess@toks=\toks19
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen152
+\lightrulewidth=\dimen153
+\cmidrulewidth=\dimen154
+\belowrulesep=\dimen155
+\belowbottomsep=\dimen156
+\aboverulesep=\dimen157
+\abovetopsep=\dimen158
+\cmidrulesep=\dimen159
+\cmidrulekern=\dimen160
+\defaultaddspace=\dimen161
+\@cmidla=\count282
+\@cmidlb=\count283
+\@aboverulesep=\dimen162
+\@belowrulesep=\dimen163
+\@thisruleclass=\count284
+\@lastruleclass=\count285
+\@thisrulewidth=\dimen164
+) (C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algpseud
+ocode.sty
+Package: algpseudocode 
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/algorithmicx\algorith
+micx.sty
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count286
+\c@ALG@rem=\count287
+\c@ALG@nested=\count288
+\ALG@tlm=\skip71
+\ALG@thistlm=\skip72
+\c@ALG@Lnr=\count289
+\c@ALG@blocknr=\count290
+\c@ALG@storecount=\count291
+\c@ALG@tmpcounter=\count292
+\ALG@tmplength=\skip73
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) (C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/base\makeidx.sty
+Package: makeidx 2021/10/04 v1.0m Standard LaTeX package
+)
+\@indexfile=\write3
+\openout3 = `"Template Disertasi-Tesis-Proposal Elektro ITS.idx"'.
+
+
+Writing index file "Template Disertasi-Tesis-Proposal Elektro ITS".idx
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/graphics\epsfig.sty
+Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
+\epsfxsize=\dimen165
+\epsfysize=\dimen166
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/subfig\subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen167
+\captionmargin=\dimen168
+\caption@leftmargin=\dimen169
+\caption@rightmargin=\dimen170
+\caption@width=\dimen171
+\caption@indent=\dimen172
+\caption@parindent=\dimen173
+\caption@hangindent=\dimen174
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count293
+\c@continuedfloat=\count294
+Package caption Info: hyperref package is loaded.
+Package caption Info: rotating package is loaded.
+)
+\c@KVtest=\count295
+\sf@farskip=\skip74
+\sf@captopadj=\dimen175
+\sf@capskip=\skip75
+\sf@nearskip=\skip76
+\c@subfigure=\count296
+\c@subfigure@save=\count297
+\c@lofdepth=\count298
+\c@subtable=\count299
+\c@subtable@save=\count300
+\c@lotdepth=\count301
+\sf@top=\skip77
+\sf@bottom=\skip78
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.s
+ty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+) (C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/type1cm\type1cm.sty
+Package: type1cm 2002/09/05 v0.04 BlueSky/Y&Y Type1 CM font definitions (DPC, p
+atched RF)
+) (C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip79
+\LTright=\skip80
+\LTpre=\skip81
+\LTpost=\skip82
+\LTchunksize=\count302
+\LTcapwidth=\dimen176
+\LT@head=\box60
+\LT@firsthead=\box61
+\LT@foot=\box62
+\LT@lastfoot=\box63
+\LT@gbox=\box64
+\LT@cols=\count303
+\LT@rows=\count304
+\c@LT@tables=\count305
+\c@LT@chunks=\count306
+\LT@p@ftn=\toks20
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/lettrine\lettrine.sty
+File: lettrine.sty 2020-03-14 v2.23 (Daniel Flipo)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/generic/minifp\minifp.sty
+Package: minifp 2013/12/30 v0.96. Macros for real number operations and a stack
+-based programing language.
+\MFP@loopctr=\count307
+)
+\c@DefaultLines=\count308
+\c@DefaultDepth=\count309
+\DefaultFindent=\dimen177
+\DefaultNindent=\dimen178
+\DefaultSlope=\dimen179
+\DiscardVskip=\dimen180
+\L@lbox=\box65
+\L@tbox=\box66
+\c@L@lines=\count310
+\c@L@depth=\count311
+\L@Pindent=\dimen181
+\L@Findent=\dimen182
+\L@Nindent=\dimen183
+\L@lraise=\dimen184
+\L@first=\dimen185
+\L@next=\dimen186
+\L@slope=\dimen187
+\L@height=\dimen188
+\L@novskip=\dimen189
+\L@target@ht=\dimen190
+\L@target@dp=\dimen191
+\L@target@tht=\dimen192
+\LettrineWidth=\dimen193
+\LettrineHeight=\dimen194
+\LettrineDepth=\dimen195
+\Llist@everypar=\toks21
+
+Loading lettrine.cfg
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/lettrine\lettrine.cfg
+))
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\backref.sty
+Package: backref 2021/02/04 v1.41 Bibliographical back referencing
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip83
+\multirow@cntb=\count312
+\multirow@dima=\skip84
+\bigstrutjot=\dimen196
+) (C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cf
+g
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen197
+\ar@mcellbox=\box67
+\extrarowheight=\dimen198
+\NC@list=\toks22
+\extratabsurround=\skip85
+\backup@length=\skip86
+\ar@cellbox=\box68
+)
+\everycr=\toks23
+\minrowclearance=\skip87
+)
+\rownum=\count313
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen199
+\ESO@tempdimb=\dimen256
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2022/05/18 v4.0.3 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip88
+\f@nch@O@elh=\skip89
+\f@nch@O@erh=\skip90
+\f@nch@O@olh=\skip91
+\f@nch@O@orh=\skip92
+\f@nch@O@elf=\skip93
+\f@nch@O@erf=\skip94
+\f@nch@O@olf=\skip95
+\f@nch@O@orf=\skip96
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count314
+) (C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count315
+\float@exts=\toks24
+\float@box=\box69
+\@float@everytoks=\toks25
+\@floatcapt=\box70
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/morefloats\morefloats
+.sty
+Package: morefloats 2015/07/22 v1.0h Raise limit of unprocessed floats (HMM)
+Package morefloats Info: Maximum number of possible floats asked for: 36
+(morefloats)             (i.e. 18 more floats).
+(morefloats)             LaTeX might run out of memory before this
+(morefloats)             (in which case it will notify you).
+)
+\@float@every@program=\toks26
+\c@program=\count316
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2021/10/15 v2.17l AMS math features
+\@mathmargin=\skip97
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks27
+\ex@=\dimen257
+))
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen258
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2021/08/26 v2.02 operator names
+)
+\inf@bad=\count317
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count318
+\leftroot@=\count319
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count320
+\DOTSCASE@=\count321
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box71
+\strutbox@=\box72
+\big@size=\dimen259
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count322
+\c@MaxMatrixCols=\count323
+\dotsspace@=\muskip17
+\c@parentequation=\count324
+\dspbrk@lvl=\count325
+\tag@help=\toks28
+\row@=\count326
+\column@=\count327
+\maxfields@=\count328
+\andhelp@=\toks29
+\eqnshift@=\dimen260
+\alignsep@=\dimen261
+\tagshift@=\dimen262
+\tagwidth@=\dimen263
+\totwidth@=\dimen264
+\lineht@=\dimen265
+\@envbody=\toks30
+\multlinegap=\skip98
+\multlinetaggap=\skip99
+\mathdisplay@stack=\toks31
+LaTeX Info: Redefining \[ on input line 2938.
+LaTeX Info: Redefining \] on input line 2939.
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/ncctools\nccmath.sty
+Package: nccmath 2006/01/20 v1.3 Additional Math Commands (NCC)
+\NCC@fracrulewidth=\dimen266
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip100
+\enit@outerparindent=\dimen267
+\enit@toks=\toks32
+\enit@inbox=\box73
+\enit@count@id=\count329
+\enitdp@description=\count330
+) (C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ulem.sty
+\UL@box=\box74
+\UL@hyphenbox=\box75
+\UL@skip=\skip101
+\UL@hook=\toks33
+\UL@height=\dimen268
+\UL@pe=\count331
+\UL@pixel=\dimen269
+\ULC@box=\box76
+Package: ulem 2019/11/18
+\ULdepth=\dimen270
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2022/05/22 v0.5v Insert pages of external PDF documents (AM)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count332
+\calc@Bcount=\count333
+\calc@Adimen=\dimen271
+\calc@Bdimen=\dimen272
+\calc@Askip=\skip102
+\calc@Bskip=\skip103
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count334
+\calc@Cskip=\skip104
+)
+\AM@pagewidth=\dimen273
+\AM@pageheight=\dimen274
+\AM@fboxrule=\dimen275
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+File: pppdftex.def 2022/05/22 v0.5v Pdfpages driver for pdfTeX (AM)
+)
+\pdfpages@includegraphics@status=\count335
+\AM@pagebox=\box77
+\AM@global@opts=\toks34
+\AM@pagecnt=\count336
+\AM@toc@title=\toks35
+\c@AM@survey=\count337
+\AM@templatesizebox=\box78
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box79
+\beforetitleunit=\skip105
+\aftertitleunit=\skip106
+\ttl@plus=\dimen276
+\ttl@minus=\dimen277
+\ttl@toksa=\toks36
+\titlewidth=\dimen278
+\titlewidthlast=\dimen279
+\titlewidthfirst=\dimen280
+) (C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count338
+\mult@box=\box80
+\multicol@leftmargin=\dimen281
+\c@unbalance=\count339
+\c@collectmore=\count340
+\doublecol@number=\count341
+\multicoltolerance=\count342
+\multicolpretolerance=\count343
+\full@width=\dimen282
+\page@free=\dimen283
+\premulticols=\dimen284
+\postmulticols=\dimen285
+\multicolsep=\skip107
+\multicolbaselineskip=\skip108
+\partial@page=\box81
+\last@line=\box82
+\maxbalancingoverflow=\dimen286
+\mult@rightbox=\box83
+\mult@grightbox=\box84
+\mult@firstbox=\box85
+\mult@gfirstbox=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\@tempa=\box120
+\@tempa=\box121
+\@tempa=\box122
+\c@minrows=\count344
+\c@columnbadness=\count345
+\c@finalcolumnbadness=\count346
+\last@try=\dimen287
+\multicolovershoot=\dimen288
+\multicolundershoot=\dimen289
+\mult@nat@firstbox=\box123
+\colbreak@box=\box124
+\mc@col@check@num=\count347
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count348
+\lst@gtempboxa=\box125
+\lst@token=\toks37
+\lst@length=\count349
+\lst@currlwidth=\dimen290
+\lst@column=\count350
+\lst@pos=\count351
+\lst@lostspace=\dimen291
+\lst@width=\dimen292
+\lst@newlines=\count352
+\lst@lineno=\count353
+\lst@maxwidth=\dimen293
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count354
+\lst@skipnumbers=\count355
+\lst@framebox=\box126
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen294
+\WF@size=\dimen295
+\c@WF@wrappedlines=\count356
+\WF@box=\box127
+\WF@everypar=\toks38
+Package: wrapfig 2003/01/31  v 3.6
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen296
+\TX@old@table=\dimen297
+\TX@old@col=\dimen298
+\TX@target=\dimen299
+\TX@delta=\dimen300
+\TX@cols=\count357
+\TX@ftn=\toks39
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.s
+ty
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.te
+x
+\XKV@toks=\toks40
+\XKV@tempa@toks=\toks41
+)
+\XKV@depth=\count358
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.st
+y
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox
+.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box128
+)
+\tc@llx=\dimen301
+\tc@lly=\dimen302
+\tc@urx=\dimen303
+\tc@ury=\dimen304
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.d
+ef
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen305
+\adjbox@Height=\dimen306
+\adjbox@Depth=\dimen307
+\adjbox@Totalheight=\dimen308
+\adjbox@pwidth=\dimen309
+\adjbox@pheight=\dimen310
+\adjbox@pdepth=\dimen311
+\adjbox@ptotalheight=\dimen312
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box129
+\sift@deathcycles=\count359
+\@vwid@loff=\dimen313
+\@vwid@roff=\dimen314
+))
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+Package: ragged2e 2021/12/15 v3.1 ragged2e Package
+\CenteringLeftskip=\skip109
+\RaggedLeftLeftskip=\skip110
+\RaggedRightLeftskip=\skip111
+\CenteringRightskip=\skip112
+\RaggedLeftRightskip=\skip113
+\RaggedRightRightskip=\skip114
+\CenteringParfillskip=\skip115
+\RaggedLeftParfillskip=\skip116
+\RaggedRightParfillskip=\skip117
+\JustifyingParfillskip=\skip118
+\CenteringParindent=\skip119
+\RaggedLeftParindent=\skip120
+\RaggedRightParindent=\skip121
+\JustifyingParindent=\skip122
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count360
+\Gm@cntv=\count361
+\c@Gm@tempcnt=\count362
+\Gm@bindingoffset=\dimen315
+\Gm@wd@mp=\dimen316
+\Gm@odd@mp=\dimen317
+\Gm@even@mp=\dimen318
+\Gm@layoutwidth=\dimen319
+\Gm@layoutheight=\dimen320
+\Gm@layouthoffset=\dimen321
+\Gm@layoutvoffset=\dimen322
+\Gm@dimlist=\toks42
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg
+)) (C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip123
+\bibsep=\skip124
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count363
+) (C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/tools\afterpage.sty
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
+\AP@output=\toks43
+\AP@partial=\box130
+\AP@footins=\box131
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/changepage\changepage
+.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count364
+\cp@tempcnt=\count365
+LaTeX Info: Redefining \checkoddpage on input line 59.
+)) (Template Disertasi-Tesis-Proposal Elektro ITS.aux)
+\openout1 = `"Template Disertasi-Tesis-Proposal Elektro ITS.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 131.
+LaTeX Font Info:    ... okay on input line 131.
+Package hyperref Info: Link coloring OFF on input line 131.
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gett
+itlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count366
+)
+LaTeX Info: Redefining \ref on input line 131.
+LaTeX Info: Redefining \pageref on input line 131.
+LaTeX Info: Redefining \nameref on input line 131.
+ (Template Disertasi-Tesis-Proposal Elektro ITS.out)
+(Template Disertasi-Tesis-Proposal Elektro ITS.out)
+\@outlinefile=\write4
+\openout4 = `"Template Disertasi-Tesis-Proposal Elektro ITS.out"'.
+
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.
+mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count367
+\scratchdimen=\dimen323
+\scratchbox=\box132
+\nofMPsegments=\count368
+\nofMParguments=\count369
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count370
+\MPscratchDim=\dimen324
+\MPnumerator=\count371
+\makeMPintoPDFobject=\count372
+\everyMPtoPDFconversion=\toks45
+)
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf
+-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys
+.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: changepage package is loaded.
+\caption@adjustwidth@hsize=\dimen325
+\caption@adjustwidth@linewidth=\dimen326
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package backref Info: ** backref set up for natbib ** on input line 131.
+\c@lstlisting=\count373
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(113.81102pt, 398.3386pt, 85.35826pt)
+* v-part:(T,H,B)=(99.58464pt, 660.10394pt, 85.35826pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=398.3386pt
+* \textheight=660.10394pt
+* \oddsidemargin=41.54103pt
+* \evensidemargin=13.08827pt
+* \topmargin=-9.68535pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=85.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(lib/TataLetak.tex (lib/cover.tex
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
+.
+
+(C:\Users\Visikom\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
+File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
+)
+<lib/LogoITS.png, id=177, 99.5355pt x 99.5355pt>
+File: lib/LogoITS.png Graphic file (type png)
+<use lib/LogoITS.png>
+Package pdftex.def Info: lib/LogoITS.png  used on input line 5.
+(pdftex.def)             Requested size: 99.53525pt x 99.53525pt.
+<lib/BeltFte.png, id=179, 2830.575pt x 60.225pt>
+File: lib/BeltFte.png Graphic file (type png)
+<use lib/BeltFte.png>
+Package pdftex.def Info: lib/BeltFte.png  used on input line 11.
+(pdftex.def)             Requested size: 597.50787pt x 12.71286pt.
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 11--13
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--40
+
+ []
+
+[1
+
+{C:/Users/Visikom/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./lib/Logo
+ITS.png> <./lib/BeltFte.png>]) [2
+
+] (lib/pengesahan.tex
+<./lib/background.png, id=195, 1706.375pt x 2208.25pt>
+File: ./lib/background.png Graphic file (type png)
+<use ./lib/background.png>
+Package pdftex.def Info: ./lib/background.png  used on input line 110.
+(pdftex.def)             Requested size: 652.98575pt x 845.04684pt.
+
+Overfull \hbox (55.47787pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[3 <./lib/background.png>]) [4
+
+] [5
+
+] [6
+
+] (ubah/pengantar.tex) [7] [8
+
+]
+(ubah/abstrak.tex (lib/identitasabstrak.tex
+Overfull \hbox (7.93213pt too wide) in paragraph at lines 34--34
+[][] 
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+) [9] [10
+
+] (ubah/abstrakEng.tex (lib/identitasabstrakEng.tex
+Overfull \hbox (128.75157pt too wide) in paragraph at lines 6--13
+[][] 
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+) [11] [12
+
+] (Template Disertasi-Tesis-Proposal Elektro ITS.toc [13
+
+])
+\tf@toc=\write5
+\openout5 = `"Template Disertasi-Tesis-Proposal Elektro ITS.toc"'.
+
+ [14]
+(Template Disertasi-Tesis-Proposal Elektro ITS.lof)
+\tf@lof=\write6
+\openout6 = `"Template Disertasi-Tesis-Proposal Elektro ITS.lof"'.
+
+ [15
+
+
+] [16
+
+]
+(Template Disertasi-Tesis-Proposal Elektro ITS.lot)
+\tf@lot=\write7
+\openout7 = `"Template Disertasi-Tesis-Proposal Elektro ITS.lot"'.
+
+ [17
+
+] [18
+
+]
+(ubah/nomenklatur.tex [19]) [20
+
+]) (bab1/bab1.tex
+Bab 1.
+) [1
+
+] [2
+
+] (bab2/bab2.tex
+Bab 2.
+[3
+
+]
+
+Package caption Warning: \label without proper reference on input line 69.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `tab:tabelcontoh2' on page 4 undefined on input line 7
+9.
+
+[4] [5] [6]
+<bab2/LambangTeknikElektro.png, id=403, 90.93974pt x 91.542pt>
+File: bab2/LambangTeknikElektro.png Graphic file (type png)
+<use bab2/LambangTeknikElektro.png>
+Package pdftex.def Info: bab2/LambangTeknikElektro.png  used on input line 98.
+(pdftex.def)             Requested size: 199.1693pt x 200.49208pt.
+File: bab2/LambangTeknikElektro.png Graphic file (type png)
+<use bab2/LambangTeknikElektro.png>
+Package pdftex.def Info: bab2/LambangTeknikElektro.png  used on input line 104.
+
+(pdftex.def)             Requested size: 79.66649pt x 80.19543pt.
+<bab2/LambangTeknikKOmputer.png, id=404, 172.84575pt x 189.70876pt>
+File: bab2/LambangTeknikKOmputer.png Graphic file (type png)
+<use bab2/LambangTeknikKOmputer.png>
+Package pdftex.def Info: bab2/LambangTeknikKOmputer.png  used on input line 110
+.
+(pdftex.def)             Requested size: 199.1693pt x 218.60046pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <./bab2/LambangTeknikElektro.png (PNG copy)>]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 116.
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--122
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--126
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8 <./bab2/LambangTeknikKOmputer.png (PNG copy)>] [9]
+<bab2/Hosmath.png, id=430, 358.33875pt x 300.52275pt>
+File: bab2/Hosmath.png Graphic file (type png)
+<use bab2/Hosmath.png>
+Package pdftex.def Info: bab2/Hosmath.png  used on input line 150.
+(pdftex.def)             Requested size: 398.3386pt x 334.08861pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 151.
+See the caption package documentation for explanation.
+
+[10 <./bab2/Hosmath.png (PNG copy)>]
+<bab2/Detexify.png, id=435, 387.24675pt x 308.95425pt>
+File: bab2/Detexify.png Graphic file (type png)
+<use bab2/Detexify.png>
+Package pdftex.def Info: bab2/Detexify.png  used on input line 161.
+(pdftex.def)             Requested size: 398.3386pt x 317.82571pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 162.
+See the caption package documentation for explanation.
+
+[11 <./bab2/Detexify.png (PNG copy)>]
+<bab2/TabelGenerator.png, id=441, 379.4175pt x 349.90726pt>
+File: bab2/TabelGenerator.png Graphic file (type png)
+<use bab2/TabelGenerator.png>
+Package pdftex.def Info: bab2/TabelGenerator.png  used on input line 169.
+(pdftex.def)             Requested size: 278.83578pt x 257.15471pt.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 170.
+See the caption package documentation for explanation.
+
+[12 <./bab2/TabelGenerator.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
+[]|[]\OT1/cmr/bx/n/12 Topik riset
+ []
+
+
+Overfull \hbox (72.76213pt too wide) in alignment at lines 178--185
+ [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--190
+[]|[]\OT1/cmr/bx/n/12 Topik riset
+ []
+
+
+Overfull \hbox (72.76213pt too wide) in alignment at lines 185--193
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (72.76213pt too wide) in alignment at lines 193--195
+ [] [] [] [] 
+ []
+
+
+Overfull \hbox (72.76213pt too wide) in alignment at lines 195--196
+ [] [] [] [] 
+ []
+
+
+Underfull \hbox (badness 1762) in paragraph at lines 198--198
+[]|\OT1/cmr/m/n/12 Estimasi vek-tor
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 198--198
+[]|\OT1/cmr/m/n/12 Metoda ba-ru un-tuk es-ti-ma-si vek-tor
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 199--200
+[]|\OT1/cmr/m/n/12 The Adjacent-Normal Cu-bic App-ro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
+[]|\OT1/cmr/m/n/12 Registrasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
+\OT1/cmr/m/n/12 ber-ba-sis fi-tur
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+[]|\OT1/cmr/m/n/12 Registrasi 3D
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 204--204
+[]|\OT1/cmr/m/n/12 Menggantikan fi-tur ge-o-me-tri ke-ti-ka
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 204--204
+\OT1/cmr/m/n/12 in-for-ma-si ge-o-me-tri per-mu-ka-an ti-dak
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
+[]|\OT1/cmr/m/n/12 Registrasi de-ngan Mo-di-fi-ed co-lor
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
+\OT1/cmr/m/n/12 ICP kom-bi-na-si an-ta-ra war-na
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
+\OT1/cmr/m/n/12 RGB de-ngan ja-rak eclu-di-e-an.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
+[]|\OT1/cmr/m/n/12 Registrasi
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
+\OT1/cmr/m/n/12 Ber-ba-sis
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--207
+\OT1/cmr/m/n/12 ge-o-me-tri
+ []
+
+
+Overfull \hbox (72.76213pt too wide) in alignment at lines 196--220
+ [] [] [] [] 
+ []
+
+[13
+
+] [14] [15]) [16
+
+] (bab3/bab3.tex
+Bab 3.
+<bab3/BlokDiagram.png, id=464, 452.69125pt x 171.64125pt>
+File: bab3/BlokDiagram.png Graphic file (type png)
+<use bab3/BlokDiagram.png>
+Package pdftex.def Info: bab3/BlokDiagram.png  used on input line 8.
+(pdftex.def)             Requested size: 398.3386pt x 151.03165pt.
+[17
+
+
+ <./bab3/BlokDiagram.png>]
+Underfull \vbox (badness 2057) has occurred while \output is active []
+
+ [18])
+[19] [20
+
+] (bab4/bab4.tex
+Bab 4.
+
+Underfull \vbox (badness 3713) has occurred while \output is active []
+
+ [21
+
+])
+[22] (bab5/bab5.tex
+Bab 5.
+) [23
+
+
+] [24
+
+] (lib/formatbibliography.tex
+(Template Disertasi-Tesis-Proposal Elektro ITS.bbl
+(Template Disertasi-Tesis-Proposal Elektro ITS.brf)
+\tf@brf=\write8
+\openout8 = `"Template Disertasi-Tesis-Proposal Elektro ITS.brf"'.
+
+) [25
+
+] [26
+
+])
+(lib/formatCV.tex (ubah/DaftarRiwayatHidup.tex
+<./ubah/Foto.jpg, id=509, 128.48pt x 128.48pt>
+File: ./ubah/Foto.jpg Graphic file (type jpg)
+<use ./ubah/Foto.jpg>
+Package pdftex.def Info: ./ubah/Foto.jpg  used on input line 5.
+(pdftex.def)             Requested size: 132.02808pt x 132.01877pt.
+
+Overfull \hbox (5.1206pt too wide) in paragraph at lines 9--28
+[][] 
+ []
+
+
+Overfull \hbox (5.1206pt too wide) in paragraph at lines 30--49
+[][] 
+ []
+
+
+Underfull \vbox (badness 1939) has occurred while \output is active []
+
+ [27
+
+ <./ubah/Foto.jpg>]) [28] [29] [30
+
+]) (Template Disertasi-Tesis-Proposal Elektro ITS.aux)
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `"Template Disertasi-Tesis-Proposal Elektro I
+TS".out' has not changed.
+(rerunfilecheck)             Checksum: 3F431E5411AC93B08CEB671AE6D5B809;6794.
+Package rerunfilecheck Info: File `"Template Disertasi-Tesis-Proposal Elektro I
+TS".brf' has not changed.
+(rerunfilecheck)             Checksum: E3978FD99A7D1C58B377A58423348EB2;191.
+ ) 
+Here is how much of TeX's memory you used:
+ 21632 strings out of 478582
+ 363773 string characters out of 2843400
+ 779621 words of memory out of 3000000
+ 39205 multiletter control sequences out of 15000+600000
+ 478666 words of font info for 59 fonts, out of 8000000 for 9000
+ 1147 hyphenation exceptions out of 8191
+ 74i,13n,82p,667b,856s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\Visikom\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tc
+rm1200.pk><C:/Users/Visikom/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmbx10.pfb><C:/Users/Visikom/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Visikom/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/Visikom/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Visikom/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Visik
+om/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/U
+sers/Visikom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10
+.pfb><C:/Users/Visikom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmr12.pfb><C:/Users/Visikom/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmr8.pfb><C:/Users/Visikom/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmss12.pfb><C:/Users/Visikom/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/Visikom/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Visikom/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users
+/Visikom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pf
+b>
+Output written on "Template Disertasi-Tesis-Proposal Elektro ITS.pdf" (50 pages
+, 3471921 bytes).
+PDF statistics:
+ 631 PDF objects out of 1000 (max. 8388607)
+ 145 named destinations out of 1000 (max. 500000)
+ 403 words of extra memory for PDF output out of 10000 (max. 10000000)
+

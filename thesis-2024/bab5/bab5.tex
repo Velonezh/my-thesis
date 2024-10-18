@@ -1,0 +1,36 @@
+\chapter{CONCLUSION AND SUGGESTION}
+\label{chap5:ConclusionSuggestion}
+\vspace{1ex}
+\section*{}
+After implement the methodology to solve the problem that stated in the
+\ref{sec1:Problems}, there are several findings related to the research described as follows: \vspace{1ex}
+
+\section{Conclusion}
+\label{sec4:Conclusion}
+\vspace{1ex}
+In this study, we propose the classification of exercise activities for the elderly using deep learning. Exercise activities for the elderly are important so that the elderly can maintain their health in old age. The work begins with the acquisition of datasets in the form of exercise activities that have been adapted to the physical issues of the elderly. Data acquisition is carried out since there are few and limited datasets that discuss this exercise activity. Video data that has been acquired is then subjected to a video frame extraction process. Each frame sequence represents exercise activity information. Pose estimation has been done using the Mediapipe framework. The extraction results are then trained using CNN, LSTM, CNN-LSTM, and deep CNN-LSTM architectures. The accuracy of each model is 83.68\%, 92.89\%, 96.05\%, and 87.11\%. Based on these results, the CNN-LSTM model outperforms the other models with an accuracy rate of 96.05\%. The error in recognizing data patterns is shown using the loss metric. The loss value of the CNN-LSTM model is 0.1498, the smallest compared to other models. This value indicates the model's ability to predict data with the lowest error rate. In addition, in other metrics, this model outperforms other models. Precision, recall, and f1-score of the CNN-LSTM model are at 0.96, respectively.
+% Pada study ini, kami mengusulkan klasifikasi aktifitas latihan untuk elderly menggunakan deep learning. Aktifitas latihan untuk elderly ini menjadi penting agar elderly dapat menjaga kesehatannya di usia lanjut. Pekerjaan diawali dengan akuisisi dataset berupa aktifitas latihan yang telah disesuaikan dengan isu-isu fisik para elderly. Akusisi data dilakukan sejak sedikit dan terbatasnya dataset yang membahas aktifitas latihan ini. Data video yang telah diakuisisi kemudian dilakukan proses ekstraksi video frame. Setiap urutan frame mewakili informasi aktifitas latihan. Estimasi pose telah dilakukan menggunakan framework Mediapipe. Hasil ekstraksi ini kemudian dilatih menggunakan arsitektur CNN, LSTM, CNN-LSTM, dan deep CNN-LSTM. Akurasi setiap model sebesar 83.68\%, 92.89\%, 96.05\%, dan 87.11\%. Berdasarkan hasil tersebut, model CNN-LSTM mengungguli model-model lainnya dengan tingkat akurasi 96.05\%. Kesalahan dalam mengenali pola data ditunjukkan menggunakan metric loss. Nilai loss model CNN-LSTM sebesar 0.1498, paling kecil dibandingkan dengan model-model lainnya. Nilai ini menunjukkan kemampuan model dalam memprediksi data dengan tingkat kesalahan paling rendah. Selain itu, pada metrcis lainnya, model ini mengungguli daripada model lainnya. Precision, recall, dan f1-score model CNN-LSTM berada pada nilai 0.96, masing-masing.
+
+
+\section{Suggestion}
+\label{sec4:Suggestion}
+Although this work shows a good ability to classify exercise activities for the elderly, there are some suggestions that can be implemented. These suggestions are used to optimize the work to get better results.
+
+
+% Meskipun pekerjaan ini menunjukkan kemampuan yang baik dalam klasifikasi aktifitas latihan untuk elderly, terdapat beberapa saran yang dapat diimplementasikan. Saran ini digunakan untuk mengoptimasi pekerjaan sehingga mendapatkan hasil yang lebih baik.
+
+% 1. Penambahan dataset untuk memperkaya data yang dilatih.
+% 2. Penambahan subjek pada dataset dengan rentang usia yang lebih lebar.
+% 3. Penambahan kelas aktifitas agar dapat menyelesaikan isu-isu fisik yang lebih banyak.
+% 4. Tuning hyperparamater sehingga mendapatkan model yang optimal.
+% 5. Mempertimbangkan arsitektur lainnya agar mendapatkan evaluasi model dengan variasi arsitektur yang lebih banyak.
+\begin{itemize}
+    \item Addition of datasets to enrich the trained data.
+    \item Adding subjects to the dataset with a wider age range.
+    \item Addition of activity classes to solve more physical issues.
+    \item Tuning the hyperparamater to get the optimal model.
+    \item Considering other architectures in order to get a model evaluation with more architectural variations.
+\end{itemize}
+
+\vspace{1ex}
+

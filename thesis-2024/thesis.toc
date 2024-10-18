@@ -1,0 +1,61 @@
+\babel@toc {american}{}\relax 
+\contentsline {chapter}{VALIDATION SHEET}{iii}{figure.caption.1}%
+\contentsline {chapter}{STATEMENT OF THE THESIS AUTHENTICY}{v}{chapter*.2}%
+\contentsline {chapter}{PREFACE}{vii}{chapter*.2}%
+\contentsline {chapter}{LIST OF FIGURES}{xv}{chapter*.3}%
+\contentsline {chapter}{LIST OF TABLES}{xvii}{chapter*.4}%
+\contentsline {chapter}{NOMENCLATURE}{xix}{chapter*.5}%
+\contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Formulation of the Problems}{5}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Objectives}{5}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Scope and Limitations}{6}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Contribution}{7}{section.1.5}%
+\contentsline {chapter}{\numberline {2}LITERATURE REVIEW}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Elderly}{9}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Elderly Physical Issue}{10}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Frozen Shoulder and Exercise Activity}{10}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Tennis Elbow and Exercise Activity}{13}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Knee Pain and Exercise Activity}{14}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Human Pose Estimation}{16}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Top-Down Approach}{17}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Bottom-Up Approach}{18}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}MediaPipe Pose Estimation}{19}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Deep Learning}{20}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Convolutional Neural Network (CNN)}{22}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Long Short-Term Memory (LSTM)}{24}{subsection.2.5.2}%
+\contentsline {section}{\numberline {2.6}Performance Metrics}{26}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Confusion Matrix}{26}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Accuracy}{27}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}Loss}{27}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.6.4}Precision}{28}{subsection.2.6.4}%
+\contentsline {subsection}{\numberline {2.6.5}Recall}{28}{subsection.2.6.5}%
+\contentsline {subsection}{\numberline {2.6.6}F1-Score}{29}{subsection.2.6.6}%
+\contentsline {chapter}{\numberline {3}METHODOLOGY}{31}{chapter.3}%
+\contentsline {section}{\numberline {3.1}PhysioExercise Dataset}{31}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Elderly Exercise Selection}{32}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Dataset Acquisition}{32}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Video Frame Extraction}{33}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}Keypoint Extraction}{33}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Training Model}{35}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}CNN Architecture}{35}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}LSTM Architecture}{37}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}CNN-LSTM Architecture}{39}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.4}Deep CNN-LSTM Architecture}{40}{subsection.3.3.4}%
+\contentsline {chapter}{\numberline {4}RESULT AND DISCUSSION}{43}{chapter.4}%
+\contentsline {section}{\numberline {4.1}PhysioExercise Dataset}{43}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Video Frame Extraction}{46}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Keypoint Ekstraction}{47}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Data Training Preparation}{48}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Performance Metrics Evaluation}{51}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}CNN Model Performance}{51}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}LSTM Model Performance}{55}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}CNN-LSTM Model Performance}{60}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Deep CNN-LSTM Model Performance}{64}{subsection.4.5.4}%
+\contentsline {section}{\numberline {4.6}Performance Analysis of Models}{69}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Processing Time Speed Result}{72}{section.4.7}%
+\contentsline {chapter}{\numberline {5}CONCLUSION AND SUGGESTION}{75}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Conclusion}{75}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Suggestion}{75}{section.5.2}%
+\contentsline {chapter}{Bibliography}{77}{section.5.2}%
+\contentsline {chapter}{Author Biography}{85}{appendix*.52}%
